@@ -14,6 +14,7 @@ const RootLayout = ({ children }: { children: any }) => {
     if (typeof window !== 'undefined') {
       ReactGA.initialize('G-JRDW7FJ9XZ'); 
       ReactGA.pageview(window.location.pathname + window.location.search);
+      console.log('entrou aq')
     }
   }, []);
 
