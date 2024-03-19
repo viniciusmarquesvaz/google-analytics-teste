@@ -22,13 +22,13 @@ const RootLayout = ({ children }: { children: any }) => {
     <html lang="en">
       <head>
         {/* Adiciona o script do Google Analytics diretamente no head */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-BSBE4YGERG" />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-MSQBBL74EZ" />
         <Script>
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-BSBE4YGERG');
+            gtag('config', 'G-MSQBBL74EZ');
           `}
         </Script>
         {/* ... outros meta tags e links de estilo ... */}
